@@ -26,10 +26,6 @@
 		{
 			"Name": "OpenXRHandTracking",
 			"Enabled": true
-		},
-		{
-			"Name": "PythonScriptPlugin",
-			"Enabled": true
 		}
 	]
 }
