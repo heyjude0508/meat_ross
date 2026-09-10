@@ -1,0 +1,33 @@
+=== start ===
+world=Office
+mesh=/Game/Office/Models/Coin/StaticMeshes/Coin loaded=True
+BOUNDS_BEFORE origin=(0.000,0.000,48.808) extent=(21.942,49.016,48.808)
+asset_import_data type=InterchangeAssetImportData
+  script_get_first_filename()='C:/Users/westl/Downloads/Coin.glb'
+  get_first_filename()='C:/Users/westl/Downloads/Coin.glb'
+  script_extract_filenames()=['C:/Users/westl/Downloads/Coin.glb']
+  extract_filenames()=['C:/Users/westl/Downloads/Coin.glb']
+  source_files=<Struct 'AssetImportInfo' (0x00000122EA5A1950) {}>
+  source_files err: 'AssetImportInfo' object is not iterable
+  stored pipelines=['InterchangeGenericAssetsPipeline', 'InterchangeGLTFPipeline']
+    InterchangeGenericAssetsPipeline import_offset_uniform_scale=1.0
+    InterchangeGLTFPipeline import_offset_uniform_scale=None
+import_filenames=['C:/Users/westl/Downloads/Coin.glb']
+SOURCE from import data (exists): C:/Users/westl/Downloads/Coin.glb
+SOURCE_PATH=C:/Users/westl/Downloads/Coin.glb via=asset_import_data
+ReimportStrategyFlags=[<ReimportStrategyFlags.APPLY_NO_PROPERTIES: 0>, <ReimportStrategyFlags.APPLY_PIPELINE_PROPERTIES: 1>, <ReimportStrategyFlags.APPLY_EDITOR_CHANGED_PROPERTIES: 2>]
+pipeline applied: ['InterchangeGenericAssetsPipeline.import_offset_uniform_scale=0.1', 'InterchangeGenericAssetsPipeline.use_source_name_for_asset=False', 'InterchangeGenericAssetsPipeline.asset_name=Coin', 'InterchangeGenericAssetsPipeline.reimport_strategy=<ReimportStrategyFlags.APPLY_PIPELINE_PROPERTIES: 1>', "InterchangeGenericMeshPipeline.build_scale3d=<Struct 'Vector' (0x000001227DCAE8B0) {x: 0.100000, y: 0.100000, z: 0.100000}>", 'InterchangeGenericMeshPipeline.import_static_meshes=True', 'InterchangeGenericMeshPipeline.combine_static_meshes=True', 'InterchangeGenericMeshPipeline.collision=True']
+added pipeline via InterchangePipelineStackOverride
+override_pipelines=[{}]
+InterchangeManager.import_asset -> True
+wait_until_all_tasks_done
+interchange ok=True imported=[]
+BOUNDS_AFTER origin=(0.000,0.000,4.881) extent=(2.194,4.902,4.881)
+reimport_succeeded=True
+actor=Coin name=StaticMeshActor_10 scale 0.1000,0.1000,0.1000 -> 1.0000,1.0000,1.0000 loc=(1529.0,-2027.0,10.0)
+save mesh /Game/Office/Models/Coin/StaticMeshes/Coin -> True
+saved Coin folder assets
+save_current_level -> True
+save_dirty_packages
+SAVE mesh_ok=True level_ok=True actor_scale_reset=True
+=== done ===

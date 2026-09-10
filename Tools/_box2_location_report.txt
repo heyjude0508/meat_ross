@@ -1,0 +1,99 @@
+world=FirstPersonMap
+Loading /Game/Office/Maps/Office
+world=Office
+group=['box_2', 'folder_3', 'folder_4', 'paperpile_01', 'paperpad', 'notebook_01', 'folder_2', 'folder_1', 'paperbox_01', 'manillapapers_01', 'paperpad2', 'fileholder_02', 'paperbox_7', 'papers', 'fileholder_03', 'fileholder_01']
+BEFORE box_2 loc=(1618.000,-2228.000,100.071) bounds_o=(1608.749,-2242.248,109.846) bounds_e=(10.570,16.187,9.775)
+BEFORE folder_3 loc=(1613.000,-2245.000,147.000) bounds_o=(1613.000,-2245.000,147.000) bounds_e=(20.692,15.096,1.533)
+BEFORE folder_4 loc=(1609.000,-2243.000,145.000) bounds_o=(1609.000,-2243.003,144.999) bounds_e=(20.860,15.320,1.127)
+BEFORE paperpile_01 loc=(1615.000,-2247.000,137.000) bounds_o=(1614.658,-2245.851,140.013) bounds_e=(24.313,24.949,1.465)
+BEFORE paperpad loc=(1606.000,-2249.000,137.000) bounds_o=(1606.006,-2248.972,137.638) bounds_e=(14.257,18.275,2.037)
+BEFORE notebook_01 loc=(1608.000,-2236.000,135.000) bounds_o=(1604.868,-2241.393,135.906) bounds_e=(17.354,14.275,1.452)
+BEFORE folder_2 loc=(1608.585,-2243.721,135.243) bounds_o=(1608.585,-2243.721,135.243) bounds_e=(21.257,15.878,1.397)
+BEFORE folder_1 loc=(1607.000,-2243.000,134.690) bounds_o=(1607.000,-2243.000,134.690) bounds_e=(20.691,15.070,0.954)
+BEFORE paperbox_01 loc=(1608.000,-2243.000,119.621) bounds_o=(1607.673,-2243.085,127.223) bounds_e=(16.471,18.928,7.467)
+BEFORE manillapapers_01 loc=(1613.000,-2242.000,140.000) bounds_o=(1611.162,-2242.459,143.069) bounds_e=(18.196,21.941,2.227)
+BEFORE paperpad2 loc=(1612.000,-2243.000,141.000) bounds_o=(1612.000,-2243.000,141.639) bounds_e=(14.243,18.241,1.101)
+BEFORE fileholder_02 loc=(1753.000,-2222.000,120.000) bounds_o=(1757.796,-2208.822,140.912) bounds_e=(11.120,17.279,20.912)
+BEFORE paperbox_7 loc=(1589.000,-2212.000,101.873) bounds_o=(1588.969,-2212.336,109.476) bounds_e=(16.737,12.120,7.467)
+BEFORE papers loc=(1633.000,-2209.000,104.000) bounds_o=(1633.000,-2209.000,104.125) bounds_e=(25.953,24.371,1.180)
+BEFORE fileholder_03 loc=(1575.000,-2214.000,117.000) bounds_o=(1588.970,-2212.778,137.912) bounds_e=(16.686,7.318,20.912)
+BEFORE fileholder_01 loc=(1571.000,-2263.000,100.000) bounds_o=(1573.435,-2249.189,120.080) bounds_e=(8.654,17.013,20.080)
+ITER0 VS_PARENT papers delta=(0.0, 0.0, 18.176)
+ITER0 SIBLING folder_3 vs folder_4 delta=(0.0, 0.0, 2.158)
+ITER0 SIBLING folder_4 vs manillapapers_01 delta=(0.0, 0.0, 2.925)
+ITER0 SIBLING paperpile_01 vs paperpad delta=(0.0, 0.0, 2.627)
+ITER0 SIBLING manillapapers_01 vs paperpile_01 delta=(0.0, 0.0, 4.764)
+ITER0 SIBLING paperpile_01 vs paperpad2 delta=(0.0, 0.0, 3.065)
+ITER0 SIBLING paperpad vs notebook_01 delta=(0.0, 0.0, 3.257)
+ITER0 SIBLING paperpad2 vs paperpad delta=(0.0, 0.0, 3.894)
+ITER0 SIBLING notebook_01 vs folder_2 delta=(0.0, 0.0, 3.685)
+ITER0 SIBLING folder_2 vs folder_1 delta=(0.0, 0.0, 3.298)
+ITER0 SIBLING folder_1 vs paperbox_01 delta=(0.0, 0.0, 2.454)
+ITER0 SIBLING paperbox_01 vs papers delta=(0.0, -10.713, 0.0)
+ITER0 SIBLING manillapapers_01 vs paperpad2 delta=(0.0, 0.0, 2.528)
+ITER1 SIBLING folder_3 vs folder_4 delta=(0.0, 0.0, 2.925)
+ITER1 SIBLING folder_3 vs manillapapers_01 delta=(0.0, 0.0, 3.538)
+ITER1 SIBLING folder_4 vs paperpile_01 delta=(0.0, 0.0, 1.875)
+ITER1 SIBLING manillapapers_01 vs folder_4 delta=(0.0, 0.0, 4.291)
+ITER1 SIBLING paperpile_01 vs paperpad2 delta=(0.0, 0.0, 3.894)
+ITER1 SIBLING paperpad vs notebook_01 delta=(0.0, 0.0, 3.685)
+ITER1 SIBLING paperpad2 vs paperpad delta=(0.0, 0.0, 3.685)
+ITER1 SIBLING notebook_01 vs folder_2 delta=(0.0, 0.0, 3.298)
+ITER1 SIBLING folder_2 vs folder_1 delta=(0.0, 0.0, 2.454)
+ITER2 SIBLING folder_3 vs manillapapers_01 delta=(0.0, 0.0, 4.291)
+ITER2 SIBLING folder_4 vs paperpile_01 delta=(0.0, 0.0, 3.894)
+ITER2 SIBLING manillapapers_01 vs folder_4 delta=(0.0, 0.0, 3.894)
+ITER2 SIBLING paperpile_01 vs paperpad2 delta=(0.0, 0.0, 3.685)
+ITER2 SIBLING paperpad vs notebook_01 delta=(0.0, 0.0, 3.298)
+ITER2 SIBLING paperpad2 vs paperpad delta=(0.0, 0.0, 3.298)
+ITER2 SIBLING notebook_01 vs folder_2 delta=(0.0, 0.0, 2.454)
+ITER3 SIBLING folder_3 vs manillapapers_01 delta=(0.0, 0.0, 3.894)
+ITER3 SIBLING folder_4 vs paperpile_01 delta=(0.0, 0.0, 3.685)
+ITER3 SIBLING manillapapers_01 vs folder_4 delta=(0.0, 0.0, 3.685)
+ITER3 SIBLING paperpile_01 vs paperpad2 delta=(0.0, 0.0, 3.298)
+ITER3 SIBLING paperpad vs notebook_01 delta=(0.0, 0.0, 2.454)
+ITER3 SIBLING paperpad2 vs paperpad delta=(0.0, 0.0, 2.454)
+ITER4 SIBLING folder_3 vs manillapapers_01 delta=(0.0, 0.0, 3.685)
+ITER4 SIBLING folder_4 vs paperpile_01 delta=(0.0, 0.0, 3.298)
+ITER4 SIBLING manillapapers_01 vs folder_4 delta=(0.0, 0.0, 3.298)
+ITER4 SIBLING paperpile_01 vs paperpad2 delta=(0.0, 0.0, 2.454)
+ITER5 SIBLING folder_3 vs manillapapers_01 delta=(0.0, 0.0, 3.298)
+ITER5 SIBLING folder_4 vs paperpile_01 delta=(0.0, 0.0, 2.454)
+ITER5 SIBLING manillapapers_01 vs folder_4 delta=(0.0, 0.0, 2.454)
+ITER6 SIBLING folder_3 vs manillapapers_01 delta=(0.0, 0.0, 2.454)
+ITER7 stable
+REMAIN_OVERLAP none
+AFTER box_2 loc=(1618.000,-2228.000,100.071) bounds_o=(1608.749,-2242.248,109.846) bounds_e=(10.570,16.187,9.775)
+AFTER folder_3 loc=(1613.000,-2245.000,173.243) bounds_o=(1613.000,-2245.000,173.243) bounds_e=(20.692,15.096,1.533)
+AFTER folder_4 loc=(1609.000,-2243.000,163.130) bounds_o=(1609.000,-2243.003,163.129) bounds_e=(20.860,15.320,1.127)
+AFTER paperpile_01 loc=(1615.000,-2247.000,156.023) bounds_o=(1614.658,-2245.851,159.036) bounds_e=(24.313,24.949,1.465)
+AFTER paperpad loc=(1606.000,-2249.000,149.693) bounds_o=(1606.006,-2248.972,150.332) bounds_e=(14.257,18.275,2.037)
+AFTER notebook_01 loc=(1608.000,-2236.000,144.437) bounds_o=(1604.868,-2241.393,145.343) bounds_e=(17.354,14.275,1.452)
+AFTER folder_2 loc=(1608.585,-2243.721,140.994) bounds_o=(1608.585,-2243.721,140.994) bounds_e=(21.257,15.878,1.397)
+AFTER folder_1 loc=(1607.000,-2243.000,137.144) bounds_o=(1607.000,-2243.000,137.144) bounds_e=(20.691,15.070,0.954)
+AFTER paperbox_01 loc=(1608.000,-2253.713,119.621) bounds_o=(1607.673,-2253.799,127.223) bounds_e=(16.471,18.928,7.467)
+AFTER manillapapers_01 loc=(1613.000,-2242.000,164.915) bounds_o=(1611.162,-2242.459,167.983) bounds_e=(18.196,21.941,2.227)
+AFTER paperpad2 loc=(1612.000,-2243.000,154.331) bounds_o=(1612.000,-2243.000,154.970) bounds_e=(14.243,18.241,1.101)
+AFTER fileholder_02 loc=(1753.000,-2222.000,120.000) bounds_o=(1757.796,-2208.822,140.912) bounds_e=(11.120,17.279,20.912)
+AFTER paperbox_7 loc=(1589.000,-2212.000,101.873) bounds_o=(1588.969,-2212.336,109.476) bounds_e=(16.737,12.120,7.467)
+AFTER papers loc=(1633.000,-2209.000,122.176) bounds_o=(1633.000,-2209.000,122.300) bounds_e=(25.953,24.371,1.180)
+AFTER fileholder_03 loc=(1575.000,-2214.000,117.000) bounds_o=(1588.970,-2212.778,137.912) bounds_e=(16.686,7.318,20.912)
+AFTER fileholder_01 loc=(1571.000,-2263.000,100.000) bounds_o=(1573.435,-2249.189,120.080) bounds_e=(8.654,17.013,20.080)
+SIM_CHECK box_2 sim=True
+SIM_CHECK folder_3 sim=True
+SIM_CHECK folder_4 sim=True
+SIM_CHECK paperpile_01 sim=True
+SIM_CHECK paperpad sim=True
+SIM_CHECK notebook_01 sim=True
+SIM_CHECK folder_2 sim=True
+SIM_CHECK folder_1 sim=True
+SIM_CHECK paperbox_01 sim=True
+SIM_CHECK manillapapers_01 sim=True
+SIM_CHECK paperpad2 sim=True
+SIM_CHECK fileholder_02 sim=False
+SIM_CHECK paperbox_7 sim=False
+SIM_CHECK papers sim=False
+SIM_CHECK fileholder_03 sim=False
+SIM_CHECK fileholder_01 sim=False
+SAVE level_ok=True CHANGE_COUNT=43
+Done
